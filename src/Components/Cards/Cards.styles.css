@@ -1,0 +1,35 @@
+.card-columns {
+  column-count: 4;
+}
+
+
+.zoom {
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+.zoom:hover {
+  transform: scale(1.05);
+  z-index: 2;
+}
+
+.modal {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0, 0.4);
+  z-index: 3;
+}
+
+.modal-content {
+  top: -10%;
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: fit-content;
+}

@@ -1,0 +1,12 @@
+.search {
+  border-radius: 50px;
+  outline: none;
+  padding: 10px 20px 10px 40px;
+  width: 15%;
+  line-height: 30px;
+  margin-bottom: 10px;
+  border: none;
+  text-align: center;
+  background: url("../../Assets//Icons/Icon-feather-search.png") no-repeat 10px;
+  background-color: white;
+}
